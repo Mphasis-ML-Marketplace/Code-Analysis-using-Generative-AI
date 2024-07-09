@@ -1,0 +1,3 @@
+The scripts present are interconnected and work together to form a travel booking system.
+The "All_Airports.json" script is responsible for reading airport data from a CSV file, maintaining information about the airports, their countries, currencies, and obtaining the distance between two airports.
+The "TravelAgent.json" script is where these separate parts come together. It creates trips using the data obtained from the "All_Airports.json" and "AirLines.json" scripts. It can create different types of trips like one-way, two-city one-way, round trips, and multi-city trips. It also has a function to create a trip with flexible routes, which finds the cheapest combination of cities to visit.
